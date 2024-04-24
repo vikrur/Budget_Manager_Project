@@ -61,7 +61,7 @@ public class PurchaseList {
             scanner.nextLine();
 
             if (inputPrice < 0) {
-                throw new IllegalArgumentException("Price cannot be negative.");
+                throw new IllegalArgumentException("Price cannot be negative.\n");
             }
 
             subtractBalance(inputPrice);
@@ -72,7 +72,7 @@ public class PurchaseList {
             System.out.println("Purchase was added!\n");
 
         } catch (InputMismatchException ime) {
-            System.out.println("Invalid input. Please enter a valid number for price.");
+            System.out.println("Invalid input. Please enter a valid number for price.\n");
             scanner.next();
         } catch (IllegalArgumentException iae) {
             System.out.println("Error: " + iae.getMessage());

@@ -13,7 +13,7 @@ import static budget.Menu.*;
 
 public class Main {
     static final Scanner SCANNER = new Scanner(System.in).useLocale(Locale.US);
-    static final FileManager FILE_MANAGER = new FileManager("purchases.txt");
+    static final FileManager FILE_MANAGER = new FileManager("Budget Manager/task/purchases.txt");
     static final PurchaseList PURCHASE_LIST_OBJECT = new PurchaseList();
     static final List<Purchase> PURCHASE_LIST = PURCHASE_LIST_OBJECT.getPurchaseList();
     static boolean isRunning = true;

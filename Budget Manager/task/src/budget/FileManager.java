@@ -17,7 +17,6 @@ public class FileManager {
 
     public void save(double balance, List<Purchase> purchases) throws IOException {
         Files.deleteIfExists(filePath);
-
         Files.createFile(filePath);
 
         String balanceLine = String.format(Locale.US, "Balance: %.2f%n", balance);
