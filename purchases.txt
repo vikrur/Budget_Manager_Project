@@ -1,0 +1,9 @@
+Balance: 0.00
+Food,FIJI Natural Artesian Water,25.98
+Food,Milk,3.50
+Food,Keystone Ground Bee,6.28
+Food,Red Fuji Apple,5.99
+Food,Almond 250g,35.43
+Food,Great Value Broccoli Florets,1.00
+Food,Hershey's milk chocolate bars,8.54
+Food,Eggs,3.99
